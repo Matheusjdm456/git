@@ -17,7 +17,7 @@ leia(n1)
 escreval("digite um numero")
 leia(n2)
 
-ENQUANTO n1 <> 0 FACA
+ENQUANTO n1 < 0 FACA
 n1:= n1+n2
 escreval("total: ", n1)
 
